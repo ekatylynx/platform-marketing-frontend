@@ -1,9 +1,6 @@
 const Modal = ({ children }) => {
   return children !== undefined ? (
-    <section className="modal-overlay">
-      
-      {children}
-    </section>
+    <section className="modal-overlay">{children}</section>
   ) : null;
 };
 

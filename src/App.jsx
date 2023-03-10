@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "./components/modal/Modal";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
-import Services from "./components/services/Services";
+import About from "./components/about/About";
 import ListServices from "./components/listServices/ListServices";
 import ProductStories from "./components/productStories/ProductStories";
 import Clients from "./components/clients/Clients";
@@ -19,7 +19,7 @@ function App() {
       <Modal>{modal}</Modal>
       <Header setModal={setModal} />
       <Main setModal={setModal} />
-      <Services />
+      <About />
       <ListServices />
       <ProductStories />
       <Clients />

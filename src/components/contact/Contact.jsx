@@ -3,20 +3,20 @@ const Contact = () => {
     <section className="contact" id="link-anchor-contact">
       <div className="container">
         <div className="contact-information">
-          <h2 className="main__title title-services title-list-services contact-title">
+          <h2 className="main-title about-title title-list-services contact-title">
             Contact with us.
           </h2>
-          <p className="main__text">
+          <p className="main-text">
             More than 50,000+ companies trusted our business
           </p>
           <form className="main-email-send contact-form">
-            <div className="main-input">
+            <div className="main-form">
               <input
-                className="main-email__input main-email__input_contact"
+                className="main-input main-input-message"
                 placeholder="Type your messages.."
               ></input>
             </div>
-            <button className="header-button main-email__button">
+            <button className="header-button main-email-button">
               Get started
             </button>
           </form>

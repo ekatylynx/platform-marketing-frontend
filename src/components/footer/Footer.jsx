@@ -12,38 +12,50 @@ const Footer = () => {
           <img src={logo} alt="icon-company"></img>
           <ul className="header-links">
             <li>
-              <a className="header__links-item" href="#">
+              <a className="header-link-item" href="#1">
                 About
               </a>
             </li>
             <li>
-              <a className="header__links-item" href="#">
+              <a className="header-link-item" href="#1">
                 Product
               </a>
             </li>
             <li>
-              <a className="header__links-item" href="#">
+              <a className="header-link-item" href="#1">
                 Service
               </a>
             </li>
             <li>
-              <a className="header__links-item" href="#">
+              <a className="header-link-item" href="#1">
                 Contact
               </a>
             </li>
           </ul>
-          <div className="footer__links">
-            <a className="footer__link" href="#">
-                <img className="footer__link-icon" src={facebook} alt="icon"></img>
+          <div className="footer-links">
+            <a className="footer-link" href="1#">
+              <img
+                className="footer-link-icon"
+                src={facebook}
+                alt="icon"
+              ></img>
             </a>
-            <a className="footer__link" href="#">
-                <img className="footer__link-icon" src={twitter} alt="icon"></img>
+            <a className="footer-link" href="#q">
+              <img className="footer-link-icon" src={twitter} alt="icon"></img>
             </a>
-            <a className="footer__link" href="#">
-                <img className="footer__link-icon" src={instagram} alt="icon"></img>
+            <a className="footer-link" href="#q">
+              <img
+                className="footer-link-icon"
+                src={instagram}
+                alt="icon"
+              ></img>
             </a>
-            <a className="footer__link" href="#">
-                <img className="footer__link-icon" src={linkedin} alt="icon"></img>
+            <a className="footer-link" href="#q">
+              <img
+                className="footer-link-icon"
+                src={linkedin}
+                alt="icon"
+              ></img>
             </a>
           </div>
         </div>
